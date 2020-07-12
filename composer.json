@@ -1,0 +1,13 @@
+{
+  "name": "jdi/iv-question",
+  "require": {
+    "php": ">=7.1",
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "JDI\\Helper\\": "src",
+      "JDI\\Tests\\": "tests"
+    }
+  }
+}
