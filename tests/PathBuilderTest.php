@@ -8,6 +8,7 @@ class PathBuilderTest extends TestCase
 {
   public function testCustom()
   {
+    echo 'console.log('. json_encode( $data ) .')';
     $this->assertEquals('abc', Path::custom('/', ['abc']));
     $this->assertEquals('abc', Path::custom('/', ['', 'abc']));
     $this->assertEquals('abc/d', Path::custom('/', ['abc', 'd']));
